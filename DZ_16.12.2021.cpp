@@ -22,5 +22,5 @@ int main()
             right = mid - 1;
         counter++;
     }
-    std::cout << "value not found" << std::endl << "steps done = " << counter;
+    std::cout << "value not found" << std::endl << "steps done = " << counter << " | log n = " << log(sizeof(a) / sizeof(int));
 }
